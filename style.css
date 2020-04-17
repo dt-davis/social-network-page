@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 850px;
+    height: 250px;
+    position: relative;
+    background-color: rgb(125, 54, 219);
+}
+
+.main-info {
+    z-index: 1;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+.profile-picture {
+    float: left;
+    margin: 15px;
+    width: 175px;
+    height: 175px;
+    background-color: rgb(125, 54, 219);
+    border: 1px solid black;
+    padding: 60px solid rgba(0, 0, 0, 0.041);
+}
+
+.user-name, .user-website {
+    position: relative;
+    font-weight: bolder;
+    color: white;
+    top: 90px;
+}
+
+
+.social-media-events ul {
+    position: relative;
+    list-style: none;
+    top: 105px;
+    right: 20px;
+}
+
+.social-media-events button{
+    position: relative;
+    float: right;
+    background-color: rgb(255, 239, 239);
+    border: 2px solid rgb(197, 197, 197);
+}
+
+.social-media-events a {
+    text-decoration: none;
+    color: black;
+}
+
+.column-nav {
+    position: relative;
+    top: 146px;
+}
+
+.column-nav ul {
+    background-color: rgb(255, 239, 239);
+    font-size: x-large;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+}
+
+.column-nav li{
+    display: inline;
+}
+
+.column-nav li:nth-child(2), li:nth-child(3), li:nth-child(4) {
+    border-right: 2px solid rgb(197, 197, 197);
+}
+
+.column-body {
+    position: relative;
+    top: 30px;
+    width: 850px;
+    height: 1500px;
+    background-color: rgb(197, 197, 197);
+    border: 1px solid black;
+}
+
+
+
+.column-one {
+    float: left;
+    width: 328px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.column-two {
+    position: relative;
+    width: 512px;
+    border: 1px solid black;
+}
+
+.postEvents li {
+    display: inline;
+}
+
+.postBody {
+    background-color: rgb(125, 54, 219);
+}
