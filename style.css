@@ -3,6 +3,7 @@
 }
 
 header {
+    margin: auto;
     width: 850px;
     height: 250px;
     position: relative;
@@ -48,6 +49,10 @@ header {
     border: 2px solid rgb(197, 197, 197);
 }
 
+.event-like {
+    margin: 10px;
+}
+
 .social-media-events a {
     text-decoration: none;
     color: black;
@@ -75,6 +80,7 @@ header {
 }
 
 .column-body {
+    margin: auto;
     position: relative;
     top: 30px;
     width: 850px;
@@ -89,13 +95,20 @@ header {
     float: left;
     width: 328px;
     margin-right: 10px;
-    border: 1px solid black;
+    background-color: rgb(255, 239, 239);
 }
 
 .column-two {
-    position: relative;
+    float: right;
     width: 512px;
-    border: 1px solid black;
+    background-color: rgb(255, 239, 239);
+}
+
+.miniProfilePic {
+    margin: 15px;
+    width: 50px;
+    height: auto;
+
 }
 
 .postEvents li {
